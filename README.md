@@ -8,8 +8,11 @@ The implementation can be found in `fixed-angles.ipynb`. The first two cells def
 
 <img src="Figures/Rounds%3D1.png" alt="Approximation ratios obtained at the fixed angles for rounds=1" width="400"/>
 
-The next two code cells compute the approximation ratios for a grid of $\beta,\gamma$ values within the range of values for rounds=1. The landscape is plotted, and the best angles obtained (fixed angles) are shown by a square (star). Shown below is the approximation ratio landscape obtained for a size 8 graph with a 1 round QAOA.
+The next two code cells compute the approximation ratios for a grid of $\beta,\gamma$ values within the range of values for rounds=1. The landscape is plotted, and the best angles obtained (fixed angles) are shown by a square (star). Shown below is the approximation ratio landscape obtained for a size 8 graph with a 1 round QAOA. The dashed line in the colobar indicates the fixed angle guarantee.
 
 <img src="Figures/Sweep-Size=8-Rounds=1.png" alt="Approximation Ratio landscape for a size 8 graph and rounds=1 " width="400"/>
+
+These computations are done using Qiskit's noisefree statevectorsimulation.
+
 
 <!--- # ![alt text](Figures/Sweep-Size=8-Rounds=1.png) ---!>
